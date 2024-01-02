@@ -1,0 +1,3 @@
+SELECT *
+FROM INVOICE
+WHERE ((CreateDay >= ? and CreateDay <= ?) or (UpdateDay >= ? and UpdateDay <= ?))
