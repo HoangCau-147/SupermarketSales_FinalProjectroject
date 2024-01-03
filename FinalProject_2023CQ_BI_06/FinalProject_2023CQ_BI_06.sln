@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "FinalProject_2023CQ_BI_06", "FinalProject_2023CQ_BI_06\FinalProject_2023CQ_BI_06.dtproj", "{041CEC05-F46A-4F51-BE38-921883CD0B42}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAP", "OLAP\OLAP.dwproj", "{C3AFCBD9-B000-476D-BC67-965026DDB7E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -12,6 +14,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{041CEC05-F46A-4F51-BE38-921883CD0B42}.Development|Default.ActiveCfg = Development
 		{041CEC05-F46A-4F51-BE38-921883CD0B42}.Development|Default.Build.0 = Development
+		{C3AFCBD9-B000-476D-BC67-965026DDB7E1}.Development|Default.ActiveCfg = Development
+		{C3AFCBD9-B000-476D-BC67-965026DDB7E1}.Development|Default.Build.0 = Development
+		{C3AFCBD9-B000-476D-BC67-965026DDB7E1}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

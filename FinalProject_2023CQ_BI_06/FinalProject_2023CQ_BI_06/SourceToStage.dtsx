@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="60"
-  DTS:VersionGUID="{09BAD199-1AE9-4F87-BAA9-3FE1ED0717DD}">
+  DTS:VersionBuild="62"
+  DTS:VersionGUID="{E5CA99A4-5938-4A44-8F61-54C5D02EACD4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2943,6 +2943,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="215.2,41.6"
+          Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\Dataset Supermarket_sales"
+          TopLeft="347.999998406403,35.166666666667" />
+        <NodeLayout
           Size="132.8,41.6"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\Row Count"
           TopLeft="350.666666712198,197.766666859521" />
@@ -2950,10 +2954,6 @@
           Size="147.2,41.6"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\CITY_STAGE"
           TopLeft="344.833333333333,328.166666666667" />
-        <NodeLayout
-          Size="215.2,41.6"
-          Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\Dataset Supermarket_sales"
-          TopLeft="347.999998406403,35.166666666667" />
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE.Paths[Row Count Output 1]"
           TopLeft="417.750000022765,239.366666859521">
@@ -3017,17 +3017,17 @@
     design-time-name="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="133,42"
+          Size="132.8,41.6"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE\Row Count"
           TopLeft="518,209" />
         <NodeLayout
-          Size="177,42"
+          Size="176.8,41.6"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE\PRODUCT_STAGE"
           TopLeft="494,302" />
         <NodeLayout
-          Size="215,42"
+          Size="215.2,41.6"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE\Dataset Supermarket_sales"
           TopLeft="472,110" />
         <EdgeLayout
@@ -3049,9 +3049,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3073,9 +3071,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

@@ -1,0 +1,22 @@
+﻿SELECT 
+  NON EMPTY { Crossjoin(
+    {[DIM City].[City].[City]},
+    {[DIM Payment].[Method].[Method]},
+    {[DIM Product].[Product Line].[Product Line]},
+	{[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}
+  )} ON COLUMNS,
+  NON EMPTY Order(
+     Crossjoin(
+      {[DIM Time].[Time].[Time].Members},
+      {[DIM Time].[Day].[Day].Members}, 
+      {[DIM Time].[Month].[Month].Members}, 
+      {[DIM Time].[Year].[Year].Members}
+    ),
+    (
+      [DIM Time].[Day].CurrentMember, 
+      [DIM Time].[Month].CurrentMember, 
+      [DIM Time].[Year].CurrentMember
+    ),
+    BASC
+  ) ON ROWS
+FROM [FPBI DDS];
