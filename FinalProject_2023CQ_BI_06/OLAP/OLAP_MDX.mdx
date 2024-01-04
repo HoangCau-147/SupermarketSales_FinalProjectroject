@@ -1,9 +1,48 @@
-﻿SELECT 
+﻿-- Chọn các chiều dữ liệu cần hiển thị trên cột, bao gồm chi nhánh, hình thức thanh toán, loại sản phẩm, số lượng khách hàng, số lượng đánh giá, và doanh thu.
+SELECT
+  NON EMPTY { [Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue] } ON COLUMNS,
+
+  -- Chọn các giá trị từ các chiều khác nhau để tạo các tổ hợp chiều dữ liệu
+  NON EMPTY { 
+    ( [DIM City].[City].[City].Members *  -- Chọn tất cả các thành phố từ chiều "City"
+      [DIM Payment].[Method].[Method].Members *  -- Chọn tất cả các phương thức thanh toán từ chiều "Payment"
+      [DIM Product].[Product Line].[Product Line].Members *  -- Chọn tất cả các loại sản phẩm từ chiều "Product Line"
+      [DIM Time].[Time].[Time].Members *  -- Chọn tất cả các thời điểm từ chiều "Time"
+      [DIM Time].[Day].[Day].Members *  -- Chọn tất cả các ngày từ chiều "Time"
+      [DIM Time].[Month].[Month].Members *  -- Chọn tất cả các tháng từ chiều "Time"
+      [DIM Time].[Year].[Year].Members) -- Chọn tất cả các năm từ chiều "Time"
+  } DIMENSION PROPERTIES PARENT_UNIQUE_NAME ON ROWS
+
+-- Chọn nguồn dữ liệu từ cube có tên là "FPBI DDS".
+FROM [FPBI DDS];
+
+
+-- Truy vấn theo Chi nhánh:
+SELECT 
   NON EMPTY { Crossjoin(
-    {[DIM City].[City].[City]},
-    {[DIM Payment].[Method].[Method]},
-    {[DIM Product].[Product Line].[Product Line]},
-	{[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}
+    {[DIM City].[City].[City]},           -- Chi nhánh
+    {[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}  -- Các số liệu đo lường
+  )} ON COLUMNS,
+  NON EMPTY Order(
+     Crossjoin(
+      {[DIM Time].[Day].[Day].Members}, 
+      {[DIM Time].[Month].[Month].Members}, 
+      {[DIM Time].[Year].[Year].Members}
+    ),
+    (
+      [DIM Time].[Day].CurrentMember, 
+      [DIM Time].[Month].CurrentMember, 
+      [DIM Time].[Year].CurrentMember
+    ),
+    BASC
+  ) ON ROWS
+FROM [FPBI DDS];
+
+-- Truy vấn theo Loại sản phẩm
+SELECT 
+  NON EMPTY { Crossjoin(
+    {[DIM Product].[Product Line].[Product Line]},  -- Loại sản phẩm
+    {[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}  -- Các số liệu đo lường
   )} ON COLUMNS,
   NON EMPTY Order(
      Crossjoin(
@@ -19,4 +58,82 @@
     ),
     BASC
   ) ON ROWS
+FROM [FPBI DDS];
+
+-- Truy vấn theo Hình thức thanh toán:
+SELECT 
+  NON EMPTY { Crossjoin(
+    {[DIM Payment].[Method].[Method]},   -- Hình thức thanh toán
+    {[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}  -- Các số liệu đo lường
+  )} ON COLUMNS,
+  NON EMPTY Order(
+     Crossjoin(
+      {[DIM Time].[Time].[Time].Members},
+      {[DIM Time].[Day].[Day].Members}, 
+      {[DIM Time].[Month].[Month].Members}, 
+      {[DIM Time].[Year].[Year].Members}
+    ),
+    (
+      [DIM Time].[Day].CurrentMember, 
+      [DIM Time].[Month].CurrentMember, 
+      [DIM Time].[Year].CurrentMember
+    ),
+    BASC
+  ) ON ROWS
+FROM [FPBI DDS];
+
+
+-- Truy vấn theo Chi nhánh và Loại sản phẩm:
+SELECT 
+  NON EMPTY { Crossjoin(
+    {[DIM City].[City].[City]},           -- Chi nhánh
+    {[DIM Product].[Product Line].[Product Line]},  -- Loại sản phẩm
+    {[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}  -- Các số liệu đo lường
+  )} ON COLUMNS,
+  NON EMPTY Order(
+     Crossjoin(
+      {[DIM Time].[Time].[Time].Members},
+      {[DIM Time].[Day].[Day].Members}, 
+      {[DIM Time].[Month].[Month].Members}, 
+      {[DIM Time].[Year].[Year].Members}
+    ),
+    (
+      [DIM Time].[Day].CurrentMember, 
+      [DIM Time].[Month].CurrentMember, 
+      [DIM Time].[Year].CurrentMember
+    ),
+    BASC
+  ) ON ROWS
+FROM [FPBI DDS];
+
+-- Truy vấn theo Chi nhánh và Hình thức thanh toán:
+SELECT 
+  NON EMPTY { Crossjoin(
+    {[DIM City].[City].[City]},           -- Chi nhánh
+    {[DIM Payment].[Method].[Method]},   -- Hình thức thanh toán
+    {[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}  -- Các số liệu đo lường
+  )} ON COLUMNS,
+  NON EMPTY Order(
+     Crossjoin(
+      {[DIM Time].[Time].[Time].Members},
+      {[DIM Time].[Day].[Day].Members}, 
+      {[DIM Time].[Month].[Month].Members}, 
+      {[DIM Time].[Year].[Year].Members}
+    ),
+    (
+      [DIM Time].[Day].CurrentMember, 
+      [DIM Time].[Month].CurrentMember, 
+      [DIM Time].[Year].CurrentMember
+    ),
+    BASC
+  ) ON ROWS
+FROM [FPBI DDS];
+
+-- Truy vấn theo Method và Productline
+SELECT 
+  NON EMPTY { [Measures].[Number of Customer], [Measures].[Number of Rating], [Measures].[Revenue] } ON COLUMNS,
+  NON EMPTY {
+    [DIM City].[City].Members * 
+    [DIM Payment].[Method].Members
+  } ON ROWS
 FROM [FPBI DDS];

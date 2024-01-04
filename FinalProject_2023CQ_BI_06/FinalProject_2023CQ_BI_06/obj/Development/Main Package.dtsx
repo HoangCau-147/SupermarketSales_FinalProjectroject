@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{F8A4A228-FC53-4A52-B1AB-F0AD3F3DF9E6}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{52F44DE0-62DB-44A9-881B-23CB6A0E83FA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -112,20 +112,20 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="138,42"
+          Id="Package\NDSToDDS"
+          TopLeft="624.615384615385,146.923076923077" />
+        <NodeLayout
           Size="155,42"
           Id="Package\SourceToStage"
-          TopLeft="224,153" />
+          TopLeft="78.6153846153846,149.923076923077" />
         <NodeLayout
           Size="144,42"
           Id="Package\StageToNDS"
-          TopLeft="502,151" />
-        <NodeLayout
-          Size="138,42"
-          Id="Package\NDSToDDS"
-          TopLeft="770,150" />
+          TopLeft="356.615384615385,147.923076923077" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="379,173">
+          TopLeft="233.615384615385,169.923076923077">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -147,7 +147,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="646,171.5">
+          TopLeft="500.615384615384,168.423076923077">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"

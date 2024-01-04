@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="60"
-  DTS:VersionGUID="{09BAD199-1AE9-4F87-BAA9-3FE1ED0717DD}">
+  DTS:VersionBuild="63"
+  DTS:VersionGUID="{9F54A4CC-DFD3-45C8-965C-B37E73F9A0F5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2409,23 +2409,23 @@
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="160,41.6"
+          Size="160,42"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\GET LSET, CET"
           TopLeft="100.138888888889,103.194444444444" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SET CET"
           TopLeft="117.698412698413,29.0992063492065" />
         <NodeLayout
-          Size="207.2,41.6"
+          Size="207,42"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE"
           TopLeft="69.7839105339104,272.198051948053" />
         <NodeLayout
-          Size="240,41.6"
+          Size="240,42"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\TRUCATE TABLE CITY_STAGE"
           TopLeft="56.5714285714286,184.857142857143" />
         <NodeLayout
-          Size="230.4,41.6"
+          Size="230,42"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\UPDATE METADATA_STAGE"
           TopLeft="60.2857142857141,390.285714285714" />
         <EdgeLayout
@@ -2519,28 +2519,28 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="366.4,487.2"
-          Size="366.4,530.4"
+          PanelSize="366,487"
+          Size="366,530"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE"
           TopLeft="59.9999999999996,79.1428571428571" />
         <NodeLayout
-          Size="160,41.6"
+          Size="160,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\GET LSET, CET"
           TopLeft="77.0000000000003,98.1428571428571" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SET CET"
           TopLeft="96.2698412698417,21.9563492063494" />
         <NodeLayout
-          Size="244.8,41.6"
+          Size="245,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE"
           TopLeft="30.2857142857142,278" />
         <NodeLayout
-          Size="268.8,41.6"
+          Size="269,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\TRUCATE TABLE PRODUCT_STAGE"
           TopLeft="18,189.142857142857" />
         <NodeLayout
-          Size="230.4,41.6"
+          Size="230,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\UPDATE METADATA_STAGE"
           TopLeft="35.047619047619,369.333333333333" />
         <EdgeLayout
@@ -2634,28 +2634,28 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="344.8,462.4"
-          Size="344.8,504.8"
+          PanelSize="345,462"
+          Size="345,505"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE"
           TopLeft="982.666666666667,96.4285714285714" />
         <NodeLayout
-          Size="160,41.6"
+          Size="160,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE\GET LSET, CET"
           TopLeft="77.281746031746,98.9087301587297" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE\SET CET"
           TopLeft="96.2698412698417,21.9563492063494" />
         <NodeLayout
-          Size="268.8,41.6"
+          Size="269,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE\SOURCE TO PRODUCTLINE_STAGE"
           TopLeft="36.3333333333337,275.904761904762" />
         <NodeLayout
-          Size="294.4,41.6"
+          Size="294,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE\TRUCATE TABLE PRODUCTLINE_STAGE"
           TopLeft="18,189.142857142857" />
         <NodeLayout
-          Size="230.4,41.6"
+          Size="230,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE\UPDATE METADATA_STAGE"
           TopLeft="63.142857142857,363.142857142857" />
         <EdgeLayout
@@ -2749,28 +2749,28 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="366.4,462.4"
-          Size="366.4,504.8"
+          PanelSize="366,462"
+          Size="366,505"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE"
           TopLeft="526.904761904762,95.6190476190476" />
         <NodeLayout
-          Size="160,41.6"
+          Size="160,42"
           Id="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE\GET LSET, CET"
           TopLeft="97.0000000000002,86.7142857142857" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE\SET CET"
           TopLeft="107.698412698413,20.527777777778" />
         <NodeLayout
-          Size="308,41.6"
+          Size="308,42"
           Id="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE\SOURCE TO SUPERMARKET_SALE_STAGE"
           TopLeft="28.896825472711,276.5555555656" />
         <NodeLayout
-          Size="332.8,41.6"
+          Size="333,42"
           Id="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE\TRUCATE TABLE SUPERMARKET_SALE_STAGE"
           TopLeft="18,189.142857142857" />
         <NodeLayout
-          Size="230.4,41.6"
+          Size="230,42"
           Id="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE\UPDATE METADATA_STAGE"
           TopLeft="70.7619047619048,366.47619047619" />
         <EdgeLayout
@@ -2864,8 +2864,8 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="380.8,462.4"
-          Size="380.8,505.6"
+          PanelSize="381,463"
+          Size="381,506"
           Id="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE"
           TopLeft="1441.14285714286,93.7142857142857" />
         <EdgeLayout
@@ -2941,7 +2941,11 @@
     design-time-name="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="215.2,41.6"
+          Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\Dataset Supermarket_sales"
+          TopLeft="347.999998406403,35.166666666667" />
         <NodeLayout
           Size="132.8,41.6"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\Row Count"
@@ -2950,10 +2954,6 @@
           Size="147.2,41.6"
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\CITY_STAGE"
           TopLeft="344.833333333333,328.166666666667" />
-        <NodeLayout
-          Size="215.2,41.6"
-          Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE\Dataset Supermarket_sales"
-          TopLeft="347.999998406403,35.166666666667" />
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO CITY_STAGE\SOURCE TO CITY_STAGE.Paths[Row Count Output 1]"
           TopLeft="417.750000022765,239.366666859521">
@@ -2973,7 +2973,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2995,7 +2997,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3019,15 +3023,15 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="133,42"
+          Size="132.8,41.6"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE\Row Count"
           TopLeft="518,209" />
         <NodeLayout
-          Size="177,42"
+          Size="176.8,41.6"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE\PRODUCT_STAGE"
           TopLeft="494,302" />
         <NodeLayout
-          Size="215,42"
+          Size="215.2,41.6"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_STAGE\SOURCE TO PRODUCT_STAGE\Dataset Supermarket_sales"
           TopLeft="472,110" />
         <EdgeLayout
@@ -3111,7 +3115,7 @@
     design-time-name="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE\SOURCE TO PRODUCTLINE_STAGE">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="215.2,41.6"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCTLINE_STAGE\SOURCE TO PRODUCTLINE_STAGE\Dataset Supermarket_sales"
@@ -3143,7 +3147,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3165,7 +3171,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3201,7 +3209,7 @@
     design-time-name="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE\SOURCE TO SUPERMARKET_SALE_STAGE">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="132.8,41.6"
           Id="Package\LOAD DATA FROM DATASET TO SUPERMARKET_SALE_STAGE\SOURCE TO SUPERMARKET_SALE_STAGE\Row Count"
@@ -3233,7 +3241,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3255,7 +3265,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

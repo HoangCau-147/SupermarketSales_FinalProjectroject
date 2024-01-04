@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="64"
-  DTS:VersionGUID="{CA9000EE-F311-42E0-B596-16A6146B76BB}">
+  DTS:VersionBuild="68"
+  DTS:VersionGUID="{8B20BFFB-E5D5-4891-BC1D-7A6E6E033575}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -8364,7 +8364,7 @@ WHERE ProductSK = ?</property>
           PanelSize="366,445"
           Size="366,488"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS"
-          TopLeft="75.3968212773244,608.761903866511" />
+          TopLeft="925.396821277325,584.476189580796" />
         <NodeLayout
           Size="155,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\GET LSET, CET"
@@ -8376,7 +8376,7 @@ WHERE ProductSK = ?</property>
         <NodeLayout
           Size="215,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS"
-          TopLeft="66.3612916732948,217.257576139626" />
+          TopLeft="65.2501805621837,217.257576139626" />
         <NodeLayout
           Size="208,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\UPDATE METADATA_NDS"
@@ -8405,18 +8405,18 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS.PrecedenceConstraints[Constraint 1]"
-          TopLeft="175.850090281092,164.603968116215">
+          TopLeft="175.194534725536,165.003968116215">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52.653608023411"
+              EndConnector="0,52.2536080234111"
               Start="0,0"
-              End="0,45.153608023411">
+              End="0,44.7536080234111">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,45.153608023411" />
+                    End="0,44.7536080234111" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8427,18 +8427,18 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS.PrecedenceConstraints[Constraint 2]"
-          TopLeft="175.009192873438,258.857576139626">
+          TopLeft="174.403637317883,259.257576139626">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,76.670200354968"
+              EndConnector="0,76.2702003549679"
               Start="0,0"
-              End="0,69.170200354968">
+              End="0,68.7702003549679">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,69.170200354968" />
+                    End="0,68.7702003549679" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8453,7 +8453,7 @@ WHERE ProductSK = ?</property>
           PanelSize="366,445"
           Size="366,488"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS"
-          TopLeft="511.111083185233,612.190475398397" />
+          TopLeft="1369.68251175666,582.190475398397" />
         <NodeLayout
           Size="155,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\GET LSET, CET"
@@ -8542,7 +8542,7 @@ WHERE ProductSK = ?</property>
           PanelSize="366,445"
           Size="366,488"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS"
-          TopLeft="77.1936698734441,1154.76189826169" />
+          TopLeft="464.336527016301,581.904755404547" />
         <NodeLayout
           Size="155,42"
           Id="Package\LOAD DATA FROM DATASET TO PAYMENT_NDS\GET LSET, CET"
@@ -8631,7 +8631,7 @@ WHERE ProductSK = ?</property>
           PanelSize="366,445"
           Size="366,488"
           Id="Package\LOAD DATA FROM DATASET TO PAYMENT_NDS"
-          TopLeft="932.539631587963,619.523808688682" />
+          TopLeft="1369.68248873082,60.9523801172534" />
         <NodeLayout
           Size="155,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\GET LSET, CET"
@@ -8856,18 +8856,18 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="1115.3110613302,544.328571331714">
+          TopLeft="1297.68249107243,304.940475724484">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,75.1952373569684"
+              EndConnector="71.999997658389,0"
               Start="0,0"
-              End="0,67.6952373569684">
+              End="64.499997658389,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,67.6952373569684" />
+                    End="64.499997658389,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8878,18 +8878,18 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="932.539631587963,859.85714204354">
+          TopLeft="1552.68250024374,548.952380117253">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-55.0285484027308,0"
+              EndConnector="0,33.2380952811436"
               Start="0,0"
-              End="-47.5285484027308,0">
+              End="0,25.7380952811436">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-47.5285484027308,0" />
+                    End="0,25.7380952811436" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8900,18 +8900,18 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="511.111083185233,854.476189632454">
+          TopLeft="1369.68251175666,827.333332489597">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-69.3142619079082,0"
+              EndConnector="-78.2856904793366,0"
               Start="0,0"
-              End="-61.8142619079082,0">
+              End="-70.7856904793366,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-61.8142619079082,0" />
+                    End="-70.7856904793366,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8922,18 +8922,18 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="259.495245575384,1096.76190386651">
+          TopLeft="925.396821277325,827.190472492672">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,57.9999943951764"
+              EndConnector="-95.0602942610232,0"
               Start="0,0"
-              End="0,50.4999943951764">
+              End="-87.5602942610232,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,50.4999943951764" />
+                    End="-87.5602942610232,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8979,7 +8979,7 @@ WHERE ProductSK = ?</property>
           Id="Package\LOAD DATA FROM DATASET TO CITY_NDS\SOURCE TO CITY_NDS\CITY_NDS"
           TopLeft="322.333334562679,441.483332545344" />
         <NodeLayout
-          Size="143,42"
+          Size="139,42"
           Id="Package\LOAD DATA FROM DATASET TO CITY_NDS\SOURCE TO CITY_NDS\CITY_STAGE"
           TopLeft="397.916644925459,28.9666665431195" />
         <EdgeLayout
@@ -9050,18 +9050,18 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO CITY_NDS\SOURCE TO CITY_NDS.Paths[OLE DB Source Output]"
-          TopLeft="469.516644925459,70.5666665431195">
+          TopLeft="468.416644925459,70.9666665431195">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,49.2499992903572"
+              EndConnector="0,48.8499992903575"
               Start="0,0"
-              End="0,41.7499992903572">
+              End="0,41.3499992903575">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.7499992903572" />
+                    End="0,41.3499992903575" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9234,35 +9234,35 @@ WHERE ProductSK = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="158.4,41.6"
+          Size="158,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\Row Count Insert"
           TopLeft="281.33332914114,360.599994769692" />
         <NodeLayout
-          Size="257.6,41.6"
+          Size="258,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\CHECK EXISTS IN CUSTOMER_NDS"
           TopLeft="284.999995753169,243.199996602535" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\Row Count"
           TopLeft="343.999994874001,167.999997794628" />
         <NodeLayout
-          Size="143.2,41.6"
+          Size="143,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\Add SourceID"
           TopLeft="336.833314571944,101.600000159741" />
         <NodeLayout
-          Size="243.2,41.6"
+          Size="243,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\UPDATE CUSTOMER_TYPE_NDS"
           TopLeft="582.999991312623,476.599993637204" />
         <NodeLayout
-          Size="196.8,41.6"
+          Size="197,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\SUPERMARKET_SALES"
           TopLeft="307.999981502693,20.0666666447454" />
         <NodeLayout
-          Size="198.4,41.6"
+          Size="198,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\CUSTOMER_TYPE_NDS"
           TopLeft="245.833334642979,479.599997557502" />
         <NodeLayout
-          Size="166.4,41.6"
+          Size="166,42"
           Id="Package\LOAD DATA FROM DATASET TO CUSTOMER_NDS\SOURCE TO CUSTOMER_NDS\Row Count Update"
           TopLeft="596.999991104007,359.599994903803" />
         <EdgeLayout
@@ -9284,9 +9284,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9320,9 +9318,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9356,9 +9352,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9380,9 +9374,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9476,9 +9468,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -9551,35 +9541,35 @@ WHERE ProductSK = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="158.4,41.6"
+          Size="158,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\Row Count Insert"
           TopLeft="281.33332914114,360.599994769692" />
         <NodeLayout
-          Size="242.4,41.6"
+          Size="242,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\CHECK EXISTS IN GENDER_NDS"
           TopLeft="284.999995753169,243.199996602535" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\Row Count"
           TopLeft="343.999994874001,169.999997764826" />
         <NodeLayout
-          Size="143.2,41.6"
+          Size="143,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\Add SourceID"
           TopLeft="336.833314571944,101.600000159741" />
         <NodeLayout
-          Size="195.2,41.6"
+          Size="195,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\UPDATE GENDER_NDS"
           TopLeft="582.999991312623,476.599993637204" />
         <NodeLayout
-          Size="196.8,41.6"
+          Size="197,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\SUPERMARKET_SALES"
           TopLeft="307.999981502693,20.0666666447454" />
         <NodeLayout
-          Size="150.4,41.6"
+          Size="150,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\GENDER_NDS"
           TopLeft="288.833334002229,475.599997617107" />
         <NodeLayout
-          Size="166.4,41.6"
+          Size="166,42"
           Id="Package\LOAD DATA FROM DATASET TO GENDER_NDS\SOURCE TO GENDER_NDS\Row Count Update"
           TopLeft="596.999991104007,359.599994903803" />
         <EdgeLayout
@@ -9601,9 +9591,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9625,9 +9613,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9649,9 +9635,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9673,9 +9657,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9757,9 +9739,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -9827,60 +9807,60 @@ WHERE ProductSK = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="257.6,41.6"
+          Size="258,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\CHECK EXISTS IN CUSTOMER_NDS"
-          TopLeft="283.888884658615,586.755548350016" />
+          TopLeft="282.638884658615,616.755548350016" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\Row Count"
-          TopLeft="341.777772684892,164.666664510965" />
+          TopLeft="340.527772684892,194.666664510965" />
         <NodeLayout
-          Size="249.6,41.6"
+          Size="250,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\CHECK EXISTS IN PRODUCT_NDS"
-          TopLeft="283.555551330249,323.311107950409" />
+          TopLeft="282.305551330249,353.311107950409" />
         <NodeLayout
-          Size="242.4,41.6"
+          Size="242,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\CHECK EXISTS IN GENDER_NDS"
-          TopLeft="291.333328992128,411.755551235874" />
+          TopLeft="290.083328992128,441.755551235874" />
         <NodeLayout
-          Size="193.6,41.6"
+          Size="194,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\UPDATE INVOICE_NDS"
-          TopLeft="544.999991878867,850.999987557531" />
+          TopLeft="543.749991878867,880.999987557531" />
         <NodeLayout
-          Size="148.8,41.6"
+          Size="149,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\INVOICE_NDS"
-          TopLeft="251.666662916541,844.999987408519" />
+          TopLeft="250.416662916541,874.999987408519" />
         <NodeLayout
-          Size="240.8,41.6"
+          Size="241,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\CHECK EXISTS IN INVOICE_NDS"
-          TopLeft="291.333328992128,652.533326697349" />
+          TopLeft="290.083328992128,682.533326697349" />
         <NodeLayout
-          Size="242.4,41.6"
+          Size="242,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\CHECK EXISTS IN BRANCH_NDS"
-          TopLeft="289.11110680302,235.533331480622" />
+          TopLeft="287.86110680302,265.533331480622" />
         <NodeLayout
-          Size="196.8,41.6"
+          Size="197,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\SUPERMARKET_SALES"
-          TopLeft="307.999981502693,20.0666666447454" />
+          TopLeft="306.749981502693,50.0666666447454" />
         <NodeLayout
-          Size="166.4,41.6"
+          Size="166,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\Row Count Update"
-          TopLeft="565.888880456488,758.711101378997" />
+          TopLeft="564.638880456488,788.711101378997" />
         <NodeLayout
-          Size="143.2,41.6"
+          Size="143,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\Add SourceID"
-          TopLeft="336.833314571944,87.1555559305355" />
+          TopLeft="335.583314571944,117.155555930536" />
         <NodeLayout
-          Size="158.4,41.6"
+          Size="158,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\Row Count Insert"
-          TopLeft="251.333329588175,753.044434677561" />
+          TopLeft="250.083329588175,783.044434677561" />
         <NodeLayout
-          Size="293.6,41.6"
+          Size="294,42"
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS\CHECK EXISTS IN PAYMENTMETHOD_NDS"
-          TopLeft="269.111107101043,493.977772100435" />
+          TopLeft="267.861107101043,523.977772100435" />
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Row Count Output 12]"
-          TopLeft="645.444436167678,800.311101378997">
+          TopLeft="644.194436167678,830.311101378997">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9897,14 +9877,12 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Row Count Output 11]"
-          TopLeft="328.299996252358,794.644434677561">
+          TopLeft="327.049996252358,824.644434677561">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9921,14 +9899,12 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Row Count Output 1]"
-          TopLeft="408.444439743956,206.266664510965">
+          TopLeft="407.194439743956,236.266664510965">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9945,14 +9921,12 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[OLE DB Source Output]"
-          TopLeft="407.416648037319,61.6666666447454">
+          TopLeft="406.166648037319,91.6666666447454">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9969,14 +9943,12 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Lookup No Match Output]"
-          TopLeft="411.733328992128,694.13332669735">
+          TopLeft="410.483328992128,724.13332669735">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10012,7 +9984,7 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Lookup Match Output5]"
-          TopLeft="450.533328992128,694.13332669735">
+          TopLeft="449.283328992128,724.13332669735">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10042,13 +10014,13 @@ WHERE ProductSK = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="51.0863890134298,31.0868634357546,96.3827734375,11.609375"
+              BoundingBox="51.08638901343,31.0868634357546,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Lookup Match Output4]"
-          TopLeft="412.211106825371,628.355548350016">
+          TopLeft="410.961106825371,658.355548350016">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10072,7 +10044,7 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Lookup Match Output3]"
-          TopLeft="414.299995879829,535.577772100435">
+          TopLeft="413.049995879829,565.577772100435">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10096,7 +10068,7 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Lookup Match Output2]"
-          TopLeft="414.222218046586,453.355551235874">
+          TopLeft="412.972218046586,483.355551235874">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10114,13 +10086,13 @@ WHERE ProductSK = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,10.7564229322804,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,10.7564229322803,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Lookup Match Output1]"
-          TopLeft="410.444440161188,364.911107950409">
+          TopLeft="409.194440161188,394.911107950409">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10144,7 +10116,7 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Lookup Match Output]"
-          TopLeft="409.333329066634,277.133331480622">
+          TopLeft="408.083329066634,307.133331480622">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10168,7 +10140,7 @@ WHERE ProductSK = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO INVOICE_NDS\SOURCE TO INVOICE_NDS.Paths[Derived Column Output]"
-          TopLeft="407.505543628418,128.755555930536">
+          TopLeft="406.255543628418,158.755555930536">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10185,9 +10157,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10425,9 +10395,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10449,9 +10417,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10473,9 +10439,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10497,9 +10461,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10581,9 +10543,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10658,42 +10618,42 @@ WHERE ProductSK = ?</property>
         <NodeLayout
           Size="130,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\Row Count"
-          TopLeft="348.999994799495,182.799997884035" />
+          TopLeft="350.666661466162,176.133331217368" />
         <NodeLayout
           Size="158,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\PRODUCT_NDS"
-          TopLeft="333.99999999586,548.766663193505" />
+          TopLeft="335.666666662527,542.099996526838" />
         <NodeLayout
           Size="273,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\CHECK EXISTS IN PRODUCTLINE_NDS"
-          TopLeft="276.999995872378,264.999996051192" />
+          TopLeft="278.666662539045,258.333329384525" />
         <NodeLayout
           Size="202,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\UPDATE PRODUCT_NDS"
-          TopLeft="572.999991461635,550.999992743134" />
+          TopLeft="574.666658128302,544.333326076467" />
         <NodeLayout
           Size="171,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\PRODUCT_STAGE"
-          TopLeft="324.999981249373,41.066666331821" />
+          TopLeft="326.66664791604,34.3999996651543" />
         <NodeLayout
           Size="250,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\CHECK EXISTS IN PRODUCT_NDS"
-          TopLeft="288.999995693564,344.799995529652" />
+          TopLeft="290.666662360231,338.133328862985" />
         <NodeLayout
           Size="166,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\Row Count Update"
-          TopLeft="595.999991118908,451.999994218349" />
+          TopLeft="597.666657785575,445.333327551682" />
         <NodeLayout
           Size="143,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\Add SourceID"
-          TopLeft="338.833314542142,115.599999951124" />
+          TopLeft="340.499981208809,108.933333284457" />
         <NodeLayout
           Size="158,42"
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS\Row Count Insert"
-          TopLeft="331.999995052815,456.599993339181" />
+          TopLeft="333.666661719482,449.933326672514" />
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[Row Count Output 12]"
-          TopLeft="413.599995335937,224.399997884035">
+          TopLeft="415.266662002604,217.733331217368">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10710,38 +10670,34 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[Row Count Output 11]"
-          TopLeft="676.699991290271,493.599994218349">
+          TopLeft="678.366657956938,486.933327551682">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,57.399998524785"
+              EndConnector="0,57.3999985247852"
               Start="0,0"
-              End="0,49.899998524785">
+              End="0,49.8999985247852">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.899998524785" />
+                    End="0,49.8999985247852" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[Row Count Output 1]"
-          TopLeft="411.999997524337,498.199993339181">
+          TopLeft="413.666664191004,491.533326672514">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10758,14 +10714,12 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[OLE DB Source Output]"
-          TopLeft="410.516647895758,82.666666331821">
+          TopLeft="412.183314562425,75.9999996651543">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10782,14 +10736,12 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[Lookup No Match Output]"
-          TopLeft="412.49999537319,386.399995529652">
+          TopLeft="414.166662039857,379.733328862985">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10807,13 +10759,13 @@ WHERE ProductSK = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-55.80638671875,25.5453114047647,111.6127734375,11.609375"
+              BoundingBox="-55.80638671875,25.5453114047646,111.6127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[Lookup Match Output1]"
-          TopLeft="454.066662360231,386.399995529652">
+          TopLeft="455.733329026898,379.733328862985">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10843,13 +10795,13 @@ WHERE ProductSK = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="64.3752776605884,31.4907001074104,96.3827734375,11.609375"
+              BoundingBox="64.3752776605885,31.4907001074104,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[Lookup Match Output]"
-          TopLeft="413.599995782971,306.599996051192">
+          TopLeft="415.266662449638,299.933329384525">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10867,13 +10819,13 @@ WHERE ProductSK = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,9.54531223922962,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,9.54531223922959,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LOAD DATA FROM DATASET TO PRODUCT_NDS\SOURCE TO PRODUCT_NDS.Paths[Derived Column Output]"
-          TopLeft="412.116654670819,157.199999951124">
+          TopLeft="413.783321337486,150.533333284457">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10890,9 +10842,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11038,9 +10988,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11062,9 +11010,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11086,9 +11032,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11110,9 +11054,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11194,9 +11136,7 @@ WHERE ProductSK = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

@@ -1,3 +1,35 @@
 SELECT *
 FROM INVOICE
 WHERE ((CreateDay >= ? and CreateDay <= ?) or (UpdateDay >= ? and UpdateDay <= ?))
+
+/*
+   Đoạn mã MDX này truy vấn dữ liệu về tình hình mua hàng của khách hàng theo các yếu tố như chi nhánh, loại sản phẩm, thời gian và hình thức thanh toán.
+*/
+
+-- Chọn các chiều dữ liệu cần hiển thị trên cột, bao gồm chi nhánh, hình thức thanh toán, loại sản phẩm, số lượng khách hàng, số lượng đánh giá, và doanh thu.
+SELECT 
+  NON EMPTY { Crossjoin(
+    {[DIM City].[City].[City]},           -- Chi nhánh
+    {[DIM Payment].[Method].[Method]},   -- Hình thức thanh toán
+    {[DIM Product].[Product Line].[Product Line]},  -- Loại sản phẩm
+	{[Measures].[Number Of Customer], [Measures].[Number Of Rating], [Measures].[Revenue]}  -- Các số liệu đo lường
+  )} ON COLUMNS,
+
+-- Chọn các chiều dữ liệu về thời gian để hiển thị trên hàng, bao gồm ngày, tháng và năm. Sắp xếp theo thứ tự tăng dần.
+  NON EMPTY Order(
+     Crossjoin(
+      {[DIM Time].[Time].[Time].Members},
+      {[DIM Time].[Day].[Day].Members}, 
+      {[DIM Time].[Month].[Month].Members}, 
+      {[DIM Time].[Year].[Year].Members}
+    ),
+    (
+      [DIM Time].[Day].CurrentMember, 
+      [DIM Time].[Month].CurrentMember, 
+      [DIM Time].[Year].CurrentMember
+    ),
+    BASC
+  ) ON ROWS
+
+-- Chọn nguồn dữ liệu từ cube có tên là "FPBI DDS".
+FROM [FPBI DDS];
